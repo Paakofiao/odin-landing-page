@@ -1,0 +1,159 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+
+*{
+    margin: 0;
+    padding: 0px;
+   font-family: "Roboto", sans-serif;
+   
+}
+
+.first-section{
+    background-color: #1F2937;
+    padding-bottom: 80px;
+   
+}
+.navbar{
+    color: white;
+}
+
+.navbar,ul{
+    display: flex;
+    justify-content: space-around;
+}
+
+ul{
+    list-style-type: none;
+    gap: 2rem;
+    
+}
+
+
+
+.content{
+ font-size: 28px;
+ width: 500px;
+ margin-top: 70px;
+ margin-left: 250px;
+ display: flex;
+ 
+}
+
+.sub-content{
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+button{
+    background-color: #3882F6;
+    border-radius: 8px;
+    font-size: 10px;
+    padding: 10px 25px 10px 25px;
+}
+
+.content-left{
+    width: 600px;
+    color: white;
+}
+
+.image-placeholder{
+    height: 80px;
+    width: 60px;
+    margin-left: 60px;
+    border: none;
+}
+
+
+.second-section{
+    color: #1F2937;
+    background-color: white;
+    height: 400px;;
+}
+
+.heading{
+    margin-top: 50px;
+    text-align: center;
+    color: #1F2937;
+}
+
+.horizontal-boxes{
+    margin-top:30px ;
+    display: flex;
+    gap: 60px;
+    justify-content: center;
+}
+
+.box1,.box2,.box3,.box4{
+     border: 3px solid blue;
+     border-radius: 8px;
+     width: 150px;
+      height: 150px;
+    
+}
+
+.box1-text{
+    margin-top: 5px;
+    width: 150px;
+}
+
+.third-section{
+    display: flex;
+    background-color: #E5E7EB;
+    height: 400px;
+    align-items: center;
+    justify-content: center;
+    font-weight: 300px;
+}
+
+.quote{
+    
+    font-size: 36px;
+    width: 850px;
+}
+
+.author{
+    font-size: 20px;
+    margin-top: 150px;
+}
+
+.fourth-section{
+    background-color:white ;
+    height: 250px;
+  
+}
+
+.card{
+    color: white;
+    margin-top: 60px;
+    margin-right: auto;
+    margin-left: auto;
+    border-radius: 10px;
+    width: 1000px;
+    height: 120px;
+    background-color: #3882F6;
+}
+
+.card-content{
+    display: flex;
+    padding-top: 40px;
+    padding-left: 80px;
+    gap: 300px;
+    
+}
+
+.final-btn{
+    color: white;
+    border: 2px solid white;
+}
+
+.footer{
+    color: white;
+    background-color: #1F2937;
+    height: 60px;
+    text-align: center;
+    line-height: 60px;
+  
+}
+
